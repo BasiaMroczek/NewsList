@@ -15,7 +15,7 @@
 .tiles li {
     width: 300px;
     margin: 10px;
-    background-color: rgba(211, 228, 61, 0.185);
+    background-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
@@ -23,7 +23,7 @@
 .list li {
     display: flex;
     margin: 10px;
-    background-color: rgba(211, 228, 61, 0.185);
+    background-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
@@ -47,4 +47,10 @@ ul {
     background: rgb(211, 228, 61);
     color: rgb(0, 0, 0);
     transform: scale(1.2);
+}
+
+.read__article {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(211, 228, 61);
 }
