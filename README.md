@@ -21,6 +21,6 @@ gnNews - News from Poland and the world.
 </ul>
 
 ## Link to App
-
+https://basiamroczek.github.io/NewsList/
 ## Aplication view
 <img src="https://i.postimg.cc/rFBByNJs/News-List-View.png"></img>
