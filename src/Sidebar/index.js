@@ -101,12 +101,12 @@ const Sidebar = () => {
       </nav>
       {activeCountry && (
         <div className="popup">
-          <div className="popup__content">
+          <div>
             <h2>Newsy z {activeCountry}</h2>
             <button className="popup__close" onClick={handleClosePopup}>
               Zamknij okno
             </button>
-            <p>Tutaj umieść swoje newsy dla kraju {activeCountry}</p>
+            <p className="popup__content">Tutaj umieść swoje newsy dla kraju {activeCountry}</p>
           </div>
         </div>
       )}
