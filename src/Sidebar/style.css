@@ -2,16 +2,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
+    background-color: rgb(231, 231, 231);
 }
 
 .content__sidebar {
     float: left;
     width: 150px;
     margin-top: 50px;
+    margin-left: 50px;
     word-wrap: nowrap;
-    border: 1px rgb(255, 255, 255) solid;
 }
 
 .content__navigation--image {
@@ -51,13 +52,13 @@ ol>li>ul {
 }
 
 ol>li>ul>li>a {
-    border-top: 1px solid #FFF;
-    background-color: rgb(255, 255, 255);
     color: black;
     display: flex;
     text-align: inline;
     padding: 8px;
     margin: 5px;
+    background: none;
+
 }
 
 ol>li>ul>li:hover a {
@@ -80,12 +81,6 @@ ol>li>ul>li:hover a {
         display: none;
     }
 
-    .content__news {
-        float: right;
-        width: 100%;
-        border: 1px rgb(255, 255, 255) solid;
-    }
-
     .content__navigation--image {
         display: block;
         max-width: 20px;
@@ -99,7 +94,6 @@ ol>li>ul>li:hover a {
         margin: 0;
         font-size: 18px;
         text-align: center;
-        color: #FFF;
     }
 
     ol a {
