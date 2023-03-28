@@ -46,7 +46,7 @@ const ArticlesList = () => {
                 <h3>{article.title}</h3>
                 <p>{article.source.name}</p>
                 <p>{article.publishedAt}</p>
-                <a className="read__article" href={article.url} target="_blank" rel="noreferrer">Czytaj artykuł...</a>
+                <a className="read__article" href={article.url} target="_blank" rel="noreferrer">Wejdź by przeczytać</a>
               </div>
             </li>
           ))}
@@ -59,7 +59,7 @@ const ArticlesList = () => {
                 <h3>{article.title}</h3>
                 <p>{article.source.name}</p>
                 <p>{article.publishedAt}</p>
-                <a className="read__article" href={article.url} target="_blank" rel="noreferrer">Czytaj artykuł...</a>
+                <a className="read__article" href={article.url} target="_blank" rel="noreferrer">Wejdź by przeczytać</a>
               </div>
             </li>
           ))}
