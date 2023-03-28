@@ -7,7 +7,7 @@ const ArticlesList = ({ setArticlesCount }) => {
   const [isTileView, setIsTileView] = useState(true);
 
   useEffect(() => {
-    const API_KEY = "d7d687aeef6c423e8158df1dbd6bda42";
+    const API_KEY = "b77d743b11914ca5a88c123eececbb39";
     const API_URL = `https://newsapi.org/v2/top-headlines?country=pl&apiKey=${API_KEY}`;
 
     axios
