@@ -1,0 +1,128 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content__sidebar {
+    float: left;
+    width: 150px;
+    margin-top: 50px;
+    word-wrap: nowrap;
+    border: 1px rgb(255, 255, 255) solid;
+}
+
+.content__navigation--image {
+    display: flex;
+    max-width: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.content__navigation--title {
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+}
+
+ol a {
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    padding: 0 5px;
+    color: black;
+}
+
+ol>li>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol>li>ul>li>a {
+    border-top: 1px solid #FFF;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    text-align: inline;
+    padding: 8px;
+    margin: 5px;
+}
+
+ol>li>ul>li:hover a {
+    color: black;
+    transform: scale(1.05);
+    background: none;
+    border: none;
+}
+
+@media (max-width: 767px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content__sidebar {
+        display: none;
+    }
+
+    .content__news {
+        float: right;
+        width: 100%;
+        border: 1px rgb(255, 255, 255) solid;
+    }
+
+    .content__navigation--image {
+        display: block;
+        max-width: 20px;
+        padding: 0;
+        margin: 0;
+    }
+
+    ol {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+        color: #FFF;
+    }
+
+    ol a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    ol>li>ul {
+        display: none;
+    }
+
+    ol>li:hover>ul {
+        display: block;
+        position: relative;
+        height: auto;
+    }
+
+    ol>li>ul>li>a {
+        border: none;
+        background: none;
+        color: black;
+        display: flex;
+        text-align: inline;
+    }
+}

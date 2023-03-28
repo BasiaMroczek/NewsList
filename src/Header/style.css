@@ -1,0 +1,76 @@
+.header {
+    max-width: 100%;
+    margin: 10px;
+    position: relative;
+}
+
+#header,
+#header__title--green,
+#header__title--black {
+    display: inline-block;
+    position: absolute;
+}
+
+.header__title--black {
+    margin: 25px 0 5px 0;
+    padding: 5px;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(34, 34, 34);
+}
+
+.header__title--green {
+    margin: 25px 0 5px 0;
+    padding: 5px;
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(211, 228, 61);
+}
+
+.header__button {
+    color: rgb(0, 0, 0);
+    background: rgba(211, 228, 61, 0.637);
+    padding: 7px;
+    border: none;
+    display: inline;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.header__button:hover {
+    background: rgb(211, 228, 61);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
+.header__button--list {
+    color: rgb(0, 0, 0);
+    background: rgba(211, 228, 61, 0.637);
+    padding: 7px;
+    border: none;
+    float: right;
+    font-weight: bold;
+}
+
+.header__button--list:hover {
+    background: rgb(211, 228, 61);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
+.header__button--tile {
+    color: rgb(0, 0, 0);
+    background: rgba(211, 228, 61, 0.637);
+    padding: 7px;
+    border: none;
+    float: right;
+    font-weight: bold;
+}
+
+.header__button--tile:hover {
+    background: rgb(211, 228, 61);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}

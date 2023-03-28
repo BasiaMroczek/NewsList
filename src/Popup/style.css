@@ -1,0 +1,36 @@
+.popup {
+    font-family: 'Jura', sans-serif;
+}
+
+.popup__open-button {
+    color: rgb(0, 0, 0);
+    background: rgba(211, 228, 61, 0.637);
+    padding: 7px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.popup__open-button:hover {
+    background: rgb(211, 228, 61);
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+.popup__close-button {
+    color: rgb(0, 0, 0);
+    background: rgba(211, 228, 61, 0.637);
+    padding: 7px;
+    border: none;
+    display: inline;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+}
+
+.popup__close-button:hover {
+    background: rgb(211, 228, 61);
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
