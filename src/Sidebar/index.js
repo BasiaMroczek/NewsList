@@ -8,7 +8,7 @@ const Sidebar = () => {
 
   const handleCountryClick = async (countryCode) => {
     setActiveCountry(countryCode);
-    const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=b77d743b11914ca5a88c123eececbb39`);
+    const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=10ae959b20514cd3ab8f95a6e5a05b31`);
     setNews(response.data.articles);
   };
 
