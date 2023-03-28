@@ -7,7 +7,7 @@
     background-color: rgb(231, 231, 231);
 }
 
-.content__sidebar {
+.content__navigation {
     float: left;
     width: 150px;
     margin-top: 50px;
@@ -17,7 +17,7 @@
 
 .content__navigation--image {
     display: flex;
-    max-width: 25px;
+    width: 25px;
     padding: 0;
     margin: 0;
 }
@@ -58,7 +58,6 @@ ol>li>ul>li>a {
     padding: 8px;
     margin: 5px;
     background: none;
-
 }
 
 ol>li>ul>li:hover a {
@@ -66,6 +65,23 @@ ol>li>ul>li:hover a {
     transform: scale(1.05);
     background: none;
     border: none;
+}
+
+.popup__close {
+    color: rgb(0, 0, 0);
+    background: rgba(211, 228, 61, 0.637);
+    padding: 7px;
+    border: none;
+    display: inline;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.popup__close:hover {
+    background: rgb(211, 228, 61);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
 }
 
 @media (max-width: 767px) {
@@ -120,3 +136,4 @@ ol>li>ul>li:hover a {
         text-align: inline;
     }
 }
+
