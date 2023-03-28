@@ -25,12 +25,13 @@
 }
 
 .list-content {
-    width: 100%;
+    width: 70%;
     margin: 10px;
     padding: 20px;
     background-color: rgb(248, 248, 248);
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    position:relative;
 }
 
 .list-content:hover {
@@ -71,4 +72,8 @@ ul {
     text-decoration: none;
     color: black;
     background-color: rgb(211, 228, 61);
+}
+
+.view-toggle {
+margin-bottom: 50px;
 }

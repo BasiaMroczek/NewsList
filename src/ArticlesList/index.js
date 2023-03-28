@@ -2,7 +2,7 @@ import './style.css';
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const ArticlesList = ({setArticlesCount}) => {
+const ArticlesList = ({ setArticlesCount }) => {
   const [articles, setArticles] = useState([]);
   const [isTileView, setIsTileView] = useState(true);
 
@@ -39,7 +39,7 @@ const ArticlesList = ({setArticlesCount}) => {
           List
         </button>
       </div>
-      {isTileView ? (
+      <div>{isTileView ? (
         <ul className="tiles">
           {articles.map((article, index) => (
             <li key={index}>
@@ -65,7 +65,8 @@ const ArticlesList = ({setArticlesCount}) => {
             </li>
           ))}
         </ul>
-      )}
+      )}</div>
+
     </div>
   );
 };
