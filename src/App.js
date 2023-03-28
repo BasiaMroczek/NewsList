@@ -5,8 +5,8 @@ import ArticlesList from "./ArticlesList";
 import Footer from './Footer';
 
 function App() {
-const [articlesCount, setArticlesCount] = useState(0);
-  
+  const [articlesCount, setArticlesCount] = useState(0);
+
   return (
     <body className="body">
       <Header />

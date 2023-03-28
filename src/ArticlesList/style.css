@@ -88,9 +88,17 @@ ul {
 .read__article {
     text-decoration: none;
     color: black;
+    background-color: rgba(211, 228, 61, 0.637);
+    padding: 2px;
+}
+
+.read__article:hover {
+    text-decoration: none;
+    color: black;
     background-color: rgb(211, 228, 61);
+    padding: 5px;
 }
 
 .view-toggle {
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
