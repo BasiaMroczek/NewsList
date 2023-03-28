@@ -102,10 +102,10 @@ const Sidebar = () => {
             </button>
             <ul className="popup__content">
               {news.map((article, index) => (
-                <li key={index}>
+                <li className="popup__title" key={index}>
                   <p>{article.title}</p>
                   <p>Autor: {article.author ? article.author : 'Nieznany autor'}</p>
-                  <a href={article.url} target="_blank" rel="noreferrer">Czytaj dalej</a>
+                  <a className="popup__article" href={article.url} target="_blank" rel="noreferrer">Kliknij by przejść do artykułu</a>
                 </li>
               ))}
             </ul>

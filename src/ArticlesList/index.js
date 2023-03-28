@@ -35,7 +35,7 @@ const ArticlesList = ({ setArticlesCount }) => {
         <button className={isTileView ? "active button__tile" : "button__tile"} onClick={handleTileView}>
           Tiles
         </button>
-        <button className={!isTileView ? "active button__tile" : "button__tile"} onClick={handleListView}>
+        <button className={!isTileView ? "active button__list" : "button__list"} onClick={handleListView}>
           List
         </button>
       </div>
