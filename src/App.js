@@ -5,16 +5,16 @@ import ArticlesList from "./ArticlesList";
 import Footer from './Footer';
 
 function App() {
-
+const [articlesCount, setArticlesCount] = useState(0);
   
   return (
     <body className="body">
       <Header />
       <div className="content">
         <Sidebar />
-        <ArticlesList />
+        <ArticlesList setArticlesCount={setArticlesCount} />
       </div >
-      <Footer />
+      <Footer articlesCount={articlesCount} />
     </body >
   );
 }

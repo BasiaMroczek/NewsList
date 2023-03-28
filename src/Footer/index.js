@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 
 
-function Footer() {
+function Footer({articlesCount}) {
   const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString());
 
   useEffect(() => {
@@ -14,7 +14,7 @@ function Footer() {
 
   return (
     <footer>
-      <p>Wyświetlono  artykułów: | Aktualna godzina: {currentTime}</p>
+      <p>Wyświetlono  artykułów: {articlesCount} | Aktualna godzina: {currentTime}</p>
     </footer>
   );
 }

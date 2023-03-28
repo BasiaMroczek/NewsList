@@ -2,7 +2,7 @@ import './style.css';
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const ArticlesList = () => {
+const ArticlesList = ({setArticlesCount}) => {
   const [articles, setArticles] = useState([]);
   const [isTileView, setIsTileView] = useState(true);
 
@@ -14,11 +14,12 @@ const ArticlesList = () => {
       .get(API_URL)
       .then((response) => {
         setArticles(response.data.articles);
+        setArticlesCount(response.data.articles.length);
       })
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [setArticlesCount]);
 
   const handleListView = () => {
     setIsTileView(false);
