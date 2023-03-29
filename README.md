@@ -21,6 +21,7 @@ gnNews - News from Poland and the world.
 </ul>
 
 ## Link to App
+The application has a non-public API key that will only work when opened locally.
 https://basiamroczek.github.io/NewsList/
 ## Aplication view
 <img src="https://i.postimg.cc/rFBByNJs/News-List-View.png"></img>
